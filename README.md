@@ -40,6 +40,12 @@ php artisan migrate
 ```
 php artisan db:seed --class=UserSeeder
 ```
+Далее, корне проекта запустить команды
+
+```
+php artisan key:generate
+php artisan storage:link
+```
 
 Независимо от выбранного способа (sqlite или своя БД + сидер) в итоге получите двух пользователей:
 
